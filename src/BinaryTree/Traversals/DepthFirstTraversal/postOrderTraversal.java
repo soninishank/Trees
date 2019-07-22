@@ -2,6 +2,7 @@ package BinaryTree.Traversals.DepthFirstTraversal;
 
 import BinaryTree.Node;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -22,6 +23,9 @@ public class postOrderTraversal {
 
     }
 
+    // Things to remember
+    //  Firstly add root , than add at index 0 when a new left element comes the old element will get shifted
+    // root , left , right in a stack
     public List<Integer> postorderTraversal(Node root) {
         // Base case
         if (root == null) {

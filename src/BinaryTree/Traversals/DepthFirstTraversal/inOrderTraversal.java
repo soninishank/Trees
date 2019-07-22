@@ -37,7 +37,6 @@ public class inOrderTraversal {
         if (root == null) {
             return;
         }
-
         while (current != null || stack.size() > 0) {
             while (current != null) // Will be checked until we reached the last node of a left tree
             {

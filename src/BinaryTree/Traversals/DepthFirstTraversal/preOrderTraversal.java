@@ -2,6 +2,9 @@ package BinaryTree.Traversals.DepthFirstTraversal;
 
 import BinaryTree.Node;
 
+import javax.swing.tree.TreeNode;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 
@@ -25,6 +28,9 @@ public class preOrderTraversal {
         preOrderRecursive(root.right);
     }
 
+    // Things to remember
+    // Firstly add root outside the while loop
+    // Than right and left
 
     private void preOrderIterative(Node root) {
         // Base case
@@ -47,9 +53,8 @@ public class preOrderTraversal {
                 stack.push(pop.left);
             }
         }
-
-
     }
+
 
     public static void main(String[] args) {
         preOrderTraversal preOrderTraversal = new preOrderTraversal();
@@ -68,5 +73,7 @@ public class preOrderTraversal {
 
         // Iterative way
         preOrderTraversal.preOrderIterative(preOrderTraversal.root);
+
+
     }
 }
