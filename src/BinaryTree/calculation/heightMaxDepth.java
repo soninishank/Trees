@@ -3,14 +3,19 @@ package BinaryTree.calculation;
 import BinaryTree.Node;
 
 // Used in levelOrderTraversal
+//Height of Tree = No of edges in longest path from root to leaf node
+// Height of tree = Height of root
+// Height = Max(LeftSubtree, RightSubtree ) + 1 ( Connecting the root node to subtree )
+// Time complexity O(n)
+//Space complexity
 public class heightMaxDepth {
     Node root;
 
 
     public int heightRecursiveWay(Node root) {
-        // Base case
+        // Base case - Exit condition
         if (root == null) {
-            return 0;
+            return 0; // some persons return -1
         } else {
             int leftDepth = heightRecursiveWay(root.left);
             int rightDepth = heightRecursiveWay(root.right);

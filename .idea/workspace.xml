@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35795e2b-7e0c-4aa5-a117-3e9769411517" name="Default Changelist" comment="" />
+    <list default="true" id="35795e2b-7e0c-4aa5-a117-3e9769411517" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/calculation/BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversals.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/calculation/heightMaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/calculation/heightMaxDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalSymmetricTress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+            <state relative-caret-position="269">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,55 +42,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/verticalOrderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalSymmetricTress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/Mirror.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/isBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -94,18 +73,21 @@
       <find>val</find>
       <find>heightBinaryTree</find>
       <find>levelOrderTraversal</find>
-      <find>TreeNode</find>
       <find>MirrorOfATree</find>
       <find>BinaryTree</find>
+      <find>TreeNode</find>
     </findStrings>
     <replaceStrings>
       <replace>data</replace>
       <replace>heightMaxDepth</replace>
       <replace>leftRightView</replace>
-      <replace>Node</replace>
       <replace>MirrorImageBinaryTree</replace>
       <replace>IdenticalTrees</replace>
+      <replace>Node</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,16 +99,19 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/combinationTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/climbingStairs.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/postOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/ZigZagLevelOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/verticalOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/Mirror.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java" />
+        <option value="$PROJECT_DIR$/src/TreeTraversals.text" />
+        <option value="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/calculation/BalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/solution.java" />
       </list>
     </option>
   </component>
@@ -135,6 +120,7 @@
     <option name="width" value="1680" />
     <option name="height" value="947" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -154,6 +140,36 @@
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Traversals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Traversals" type="462c0819:PsiDirectoryNode" />
+              <item name="DepthFirstTraversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Traversals" type="462c0819:PsiDirectoryNode" />
+              <item name="DepthFirstTraversal" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,6 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -177,13 +194,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IdenticalTress">
-    <configuration name="IdenticalTress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.IdenticalTress" />
+  <component name="RunManager" selected="Application.solution">
+    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.calculation.BalancedBinaryTree" />
       <module name="Tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
+          <option name="PATTERN" value="BinaryTree.calculation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRightView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.BreadthFirstTraversal.Views.LeftRightView" />
+    <configuration name="IdenticalTress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.IdenticalTress" />
       <module name="Tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.Traversals.BreadthFirstTraversal.Views.*" />
+          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.BreadthFirstTraversal.ZigZagLevelOrderTraversal" />
+    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.solution" />
       <module name="Tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.Traversals.BreadthFirstTraversal.*" />
+          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.solution" />
+        <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.IdenticalTress" />
         <item itemvalue="Application.MirrorImageBinaryTree" />
         <item itemvalue="Application.verticalOrderTraversal" />
-        <item itemvalue="Application.LeftRightView" />
-        <item itemvalue="Application.ZigZagLevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +287,7 @@
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,12 +296,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33450294" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33450294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2748538" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982457" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32982457" />
@@ -298,7 +315,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,12 +324,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33450294" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33450294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2748538" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32982457" />
@@ -340,6 +357,18 @@
           <line>53</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTree/calculation/BalancedBinaryTree.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/solution.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -372,13 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -393,26 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-363">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -443,37 +445,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/Mirror.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="356">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/isBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="316">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeTraversals.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/calculation/BalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/calculation/heightMaxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="337">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalSymmetricTress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-end-line="40" />
         </state>
       </provider>
     </entry>

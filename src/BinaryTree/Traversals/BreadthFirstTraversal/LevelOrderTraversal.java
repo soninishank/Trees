@@ -7,6 +7,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //It traverses all the nodes at each level before going to the next level (depth)
+// FIFO - Order - Queue  - Dequeue and Enqueue operation
+// Time Complexity - O(N)
+// Space complexity - Here our queue is growing and shrinking - Dynamic queue - O (1) - Best , O(n) Worst ,Average
 public class LevelOrderTraversal {
     Node root;
     Queue<Node> queue = new LinkedList<>();
@@ -55,7 +58,7 @@ public class LevelOrderTraversal {
             return;
         }
         queue.add(root); // Adding the L0 element
-        while (!queue.isEmpty()) // If queue is not empty than loop until we covered all left and right elements
+        while (!queue.isEmpty()) // If queue is not empty than loop until we covered all left and right elements - while there is at least one discovered node
         {
             Node tempNode = queue.poll(); // Take the front element and remove it from the Queue
             System.out.print(tempNode.data + " ");

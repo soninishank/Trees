@@ -4,7 +4,7 @@ import BinaryTree.Node;
 
 // To check weather both the trees are same  or not  - Both trees having same data
 // Here two trees are compared one by one
-public class IdenticalTress {
+public class IdenticalSymmetricTress {
 
     Node root1, root2;
 
@@ -23,7 +23,7 @@ public class IdenticalTress {
 
 
     public static void main(String[] args) {
-        IdenticalTress tree = new IdenticalTress();
+        IdenticalSymmetricTress tree = new IdenticalSymmetricTress();
 
         tree.root1 = new Node(1);
         tree.root1.left = new Node(2);

@@ -1,0 +1,21 @@
+Tree Traversals are basically of two types : Used in graphs also
+
+1.Breadth First : We will go level by level
+
+2.Depth First : Relative order is different in depth first traversal
+
+We can either visit complete right subtree or left subtree or root - Vice versa in each case
+
+a) Pre Order : Root Left Right
+
+b ) Post order ; Left Right Root
+
+c) InOrder: Left Root Right
+
+
+
+The time complexity of each approach is 0(n), where n is the number of nodes in the
+tree. Although no memory is explicitly allocated, the function call stack reaches a
+maximum depth of h, the height of the tree. Therefore, the space complexity is 0(h).
+The minimum value for h is log n (complete binary tree) and the maximum value for h
+is n (skewed tree).
