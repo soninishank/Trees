@@ -15,14 +15,13 @@ public class isBST {
     Node root;
     Stack<Node> stack = new Stack<>();
 
-    public boolean isValidBSTUsingInOrderTraversal(Node root)
-    {
+    public boolean isValidBSTUsingInOrderTraversal(Node root) {
         Node current = root;
         // Base condition you must apply in every Binary Tree Questions
         if (root == null) {
             return true;
         }
-        double inOrder = - Double.MAX_VALUE; // Mandatory and it is negative
+        double inOrder = -Double.MAX_VALUE; // Mandatory and it is negative
 
         while (current != null || stack.size() > 0) {
             while (current != null) // Will be checked until we reached the last node of a left tree

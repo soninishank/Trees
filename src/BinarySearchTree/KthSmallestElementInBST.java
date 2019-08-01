@@ -3,8 +3,6 @@ package BinarySearchTree;
 import BinaryTree.Node;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 // As we know that for sorted BST -  inorder traversal of BST is an array sorted in the ascending order.

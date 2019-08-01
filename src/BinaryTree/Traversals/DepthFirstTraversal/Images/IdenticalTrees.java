@@ -3,8 +3,9 @@ package BinaryTree.Traversals.DepthFirstTraversal.Images;
 import BinaryTree.Node;
 
 // To check weather both the trees are same  or not  - Both trees having same data
-// Here two trees are compared one by one
-public class IdenticalSymmetricTress {
+// Same Tree
+// https://leetcode.com/problems/same-tree/
+public class IdenticalTrees {
 
     Node root1, root2;
 
@@ -23,21 +24,21 @@ public class IdenticalSymmetricTress {
 
 
     public static void main(String[] args) {
-        IdenticalSymmetricTress tree = new IdenticalSymmetricTress();
+        IdenticalTrees sameTree = new IdenticalTrees();
 
-        tree.root1 = new Node(1);
-        tree.root1.left = new Node(2);
-        tree.root1.right = new Node(3);
-        tree.root1.left.left = new Node(4);
-        tree.root1.left.right = new Node(5);
+        sameTree.root1 = new Node(1);
+        sameTree.root1.left = new Node(2);
+        sameTree.root1.right = new Node(3);
+        sameTree.root1.left.left = new Node(4);
+        sameTree.root1.left.right = new Node(5);
 
-        tree.root2 = new Node(1);
-        tree.root2.left = new Node(2);
-        tree.root2.right = new Node(3);
-        tree.root2.left.left = new Node(4);
-        tree.root2.left.right = new Node(5);
+        sameTree.root2 = new Node(1);
+        sameTree.root2.left = new Node(2);
+        sameTree.root2.right = new Node(3);
+        sameTree.root2.left.left = new Node(4);
+        sameTree.root2.left.right = new Node(5);
 
-        if (tree.identicalTrees(tree.root1, tree.root2)) {
+        if (sameTree.identicalTrees(sameTree.root1, sameTree.root2)) {
             System.out.println("Both trees are identical");
         } else {
             System.out.println("Trees are not identical");

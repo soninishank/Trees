@@ -7,15 +7,12 @@ import java.util.*;
 public class secondMinimum {
     Node root;
 
-    public int findSecondMinimumValue(Node root)
-    {
+    public int findSecondMinimumValue(Node root) {
         Stack<Node> stack = new Stack<>();
         Set<Integer> set = new TreeSet<>();
         List<Integer> list = new ArrayList<>();
-        while (!stack.isEmpty() || root != null)
-        {
-            while (root != null)
-            {
+        while (!stack.isEmpty() || root != null) {
+            while (root != null) {
                 stack.push(root);
                 root = root.left;
             }
@@ -24,11 +21,10 @@ public class secondMinimum {
             root = root.right;
         }
         list.addAll(set);
-        if (list.size() > 1)
-        {
+        if (list.size() > 1) {
             return list.get(1);
         }
-       return -1;
+        return -1;
     }
 
 
