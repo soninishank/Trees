@@ -11,6 +11,7 @@ import java.util.Stack;
 //  inorder traversal of BST is an array sorted in the ascending order.
 // root.right.data > root.val
 // root.val > root.left.data
+// https://leetcode.com/problems/validate-binary-search-tree/
 public class isBST {
     Node root;
     Stack<Node> stack = new Stack<>();

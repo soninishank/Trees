@@ -17,7 +17,6 @@ public class LeftRightView {
     Node root;
     Queue<Node> queue = new LinkedList<>();
 
-
     private void rightViewTree(Node root) {
         if (root == null) {
             return;

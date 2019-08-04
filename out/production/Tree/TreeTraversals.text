@@ -8,7 +8,7 @@ We can either visit complete right subtree or left subtree or root - Vice versa 
 
 a) Pre Order : Root Left Right
 
-b ) Post order ; Left Right Root
+b) Post order ; Left Right Root
 
 c) InOrder: Left Root Right
 
