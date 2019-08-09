@@ -1,10 +1,12 @@
 package BinarySearchTree.Hard;
 
 import BinaryTree.Node;
+import BinaryTree.Traversals.DepthFirstTraversal.preOrderTraversal;
 
 // Two elements of a binary search tree (BST) are swapped by mistake.
 //Recover the tree without changing its structure.
 // what we are comparing is the current node and its previous node in the "in order traversal".
+// https://www.interviewbit.com/problems/recover-binary-search-tree/
 public class RecoverBinarySearchTree {
     Node root;
 
@@ -55,12 +57,15 @@ public class RecoverBinarySearchTree {
 
         // Inputting Data
         RecoverBinarySearchTree.root = new Node(1);
-        RecoverBinarySearchTree.root.left = new Node(3);
-        RecoverBinarySearchTree.root.left.right = new Node(2);
+        RecoverBinarySearchTree.root.left = new Node(2);
+        RecoverBinarySearchTree.root.right = new Node(3);
 
 
         // Normal In Order Traversal
         RecoverBinarySearchTree.recoverTree(RecoverBinarySearchTree.root);
+
+
+        new preOrderTraversal().preOrderRecursive(RecoverBinarySearchTree.root);
 
 
     }

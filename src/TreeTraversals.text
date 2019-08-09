@@ -19,3 +19,22 @@ tree. Although no memory is explicitly allocated, the function call stack reache
 maximum depth of h, the height of the tree. Therefore, the space complexity is 0(h).
 The minimum value for h is log n (complete binary tree) and the maximum value for h
 is n (skewed tree).
+
+
+
+
+
+These three terms inorder, preorder and postorder are kept on the order pf processing of ROOT element.
+
+Now when we say INORDER, it means everything is in order i.e. we traverse from left to root to right.
+
+Take an example of a line segment with left end point A and right end point B.
+Take a mid point M on AB. Now inorder means starting from left (A) going to mid (M) and reaching right (R). As simple as that, everything is in order.
+
+
+PREORDER means before order. Now what is before? Since i already said the names are kept keeping in mind the root element so the ROOT is before all the elements.
+So the root will be processed before any element. But remember, the left node will always be processed before right node.
+
+
+
+Same goes with POSTORDER. The ROOT element will be processed at last after LEFT and RIGHT nodes have been processed.

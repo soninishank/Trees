@@ -16,6 +16,23 @@ public class isBST {
     Node root;
     Stack<Node> stack = new Stack<>();
 
+
+    public boolean isBSTRecursive(Node root) {
+        return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    boolean isBST(Node root, int minValue, int maxValue) {
+        if (root == null) {
+            return true;
+        }
+        int data = root.data;
+        if (data <= minValue || data > maxValue) {
+            return false;
+        }
+        return isBST(root.left, minValue, root.data) && isBST(root.right, root.data, maxValue);
+    }
+
+
     public boolean isValidBSTUsingInOrderTraversal(Node root) {
         Node current = root;
         // Base condition you must apply in every Binary Tree Questions
@@ -52,7 +69,7 @@ public class isBST {
 
 
         // Recursive way
-        //   isBST.inOrderRecursive(isBST.root);
+        isBST.isBSTRecursive(isBST.root);
 
         System.out.println();
 

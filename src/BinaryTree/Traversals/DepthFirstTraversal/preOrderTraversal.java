@@ -2,9 +2,6 @@ package BinaryTree.Traversals.DepthFirstTraversal;
 
 import BinaryTree.Node;
 
-import javax.swing.tree.TreeNode;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 
@@ -12,13 +9,14 @@ import java.util.Stack;
 If you know you need to explore the roots before inspecting any leaves,
 you pick pre-order because you will encounter all the roots before all of the leaves.*/
 
+// https://www.interviewbit.com/problems/preorder-traversal/
 // Root (Print ) -> left -> right
 public class preOrderTraversal {
     Node root;
     private Stack<Node> stack = new Stack<>();
 
 
-    private void preOrderRecursive(Node root) {
+    public void preOrderRecursive(Node root) {
         if (root == null) {
 
             return;

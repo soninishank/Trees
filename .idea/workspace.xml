@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35795e2b-7e0c-4aa5-a117-3e9769411517" name="Default Changelist" comment="Some more code">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/Basics" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/Hard/RecoverBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/invertBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/isBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/isBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/TreeTraversals.text" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/TreeTraversals.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/Hard/RecoverBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/Hard/RecoverBinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/Hard/RecoverBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/Hard/RecoverBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/verticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/verticalOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/postOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/postOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/preOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TreeTraversals.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTraversals.text" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,9 +38,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeftRightView">
+  <component name="RunManager" selected="Application.verticalOrderTraversal">
     <configuration name="IdenticalTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.IdenticalTrees" />
       <module name="Tree" />
@@ -78,32 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirrorImageBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.MirrorImageBinaryTree" />
-      <module name="Tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MirrorImageSymmetricBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.MirrorImageSymmetricBinaryTree" />
-      <module name="Tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecoverBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree.Hard.RecoverBinarySearchTree" />
       <module name="Tree" />
@@ -117,13 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="invertBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.DepthFirstTraversal.Images.invertBinaryTree" />
+      <module name="Tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.Traversals.DepthFirstTraversal.Images.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Traversals.BreadthFirstTraversal.verticalOrderTraversal" />
+      <module name="Tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.Traversals.BreadthFirstTraversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeftRightView" />
+        <item itemvalue="Application.verticalOrderTraversal" />
         <item itemvalue="Application.RecoverBinarySearchTree" />
+        <item itemvalue="Application.invertBinaryTree" />
+        <item itemvalue="Application.LeftRightView" />
         <item itemvalue="Application.IdenticalTrees" />
-        <item itemvalue="Application.MirrorImageSymmetricBinaryTree" />
-        <item itemvalue="Application.MirrorImageBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -170,18 +179,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/postOrderTraversal.java</url>
-          <line>63</line>
+          <line>64</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinaryTree/calculation/BalancedBinaryTree.java</url>
           <line>51</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,22 +4,20 @@ import BinaryTree.Node;
 
 import java.util.*;
 
+// https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/
 // We need to get the distance from parentNode to a Node
 // For left = Distance  - 1 ;
 // For right = Distance + 1 ;
 // Using TreeMap , it keeps all the keys in a sorted order so firstly key with -2 , -1 , 0 , 1 , 2 will be printed
-public class verticalOrderTraversal
-{
+public class verticalOrderTraversal {
     Node root;
 
     Map<Integer, TreeSet<int[]>> map = new TreeMap<>();
 
-    public List<List<Integer>> verticalTraversal(Node root)
-    {
+    public List<List<Integer>> verticalTraversal(Node root) {
         List<List<Integer>> res = new LinkedList<>();
         populate(root, 0, 0);
-        for (int i : map.keySet())
-        {
+        for (int i : map.keySet()) {
             List<Integer> list = new LinkedList<>();
             for (int[] j : map.get(i))
                 list.add(j[0]);
@@ -56,18 +54,6 @@ public class verticalOrderTraversal
         System.out.println(lists);
 
 
-    }
-
-}
-
-class Obj {
-    public Node node;
-    public int distance;
-
-
-    public Obj(Node node, int distance) {
-        this.distance = distance;
-        this.node = node;
     }
 
 }
