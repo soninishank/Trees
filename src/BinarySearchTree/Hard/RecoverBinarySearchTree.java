@@ -7,11 +7,14 @@ import BinaryTree.Traversals.DepthFirstTraversal.preOrderTraversal;
 //Recover the tree without changing its structure.
 // what we are comparing is the current node and its previous node in the "in order traversal".
 // https://www.interviewbit.com/problems/recover-binary-search-tree/
+// https://www.youtube.com/watch?v=LR3K5XAWV5k
+// https://www.ideserve.co.in/learn/how-to-recover-a-binary-search-tree-if-two-nodes-are-swapped
+// https://leetcode.com/problems/recover-binary-search-tree/discuss/32535/No-Fancy-Algorithm-just-Simple-and-Powerful-In-Order-Traversal
 public class RecoverBinarySearchTree {
     Node root;
 
     Node firstElement = null;
-    Node secondElement = null;
+    Node lastElement = null;
     // The reason for this initialization is to avoid null pointer exception in the first comparison when prevElement has not been initialized
     Node prevElement = new Node(Integer.MIN_VALUE);
 
@@ -25,16 +28,15 @@ public class RecoverBinarySearchTree {
 
         // Start of "do some business", 
         // If first element has not been found, assign it to prevElement (refer to 6 in the example above)
-        if (firstElement == null && prevElement.data >= root.data) {
-            firstElement = prevElement;
-        }
-
-        // If first element is found, assign the second element to the root (refer to 2 in the example above)
-        if (firstElement != null && prevElement.data >= root.data) {
-            secondElement = root;
+        if (prevElement != null) {
+            if (prevElement.data > root.data) {
+                if (firstElement == null) {
+                    firstElement = prevElement;
+                }
+                lastElement = root;
+            }
         }
         prevElement = root;
-
         // End of "do some business"
         traverse(root.right);
     }
@@ -46,8 +48,8 @@ public class RecoverBinarySearchTree {
 
         // Swap the data of the two nodes
         int temp = firstElement.data;
-        firstElement.data = secondElement.data;
-        secondElement.data = temp;
+        firstElement.data = lastElement.data;
+        lastElement.data = temp;
     }
 
 
