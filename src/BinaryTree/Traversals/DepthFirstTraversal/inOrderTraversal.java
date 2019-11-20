@@ -1,6 +1,8 @@
 package BinaryTree.Traversals.DepthFirstTraversal;
 
 // https://www.interviewbit.com/problems/inorder-traversal/
+// It is in order
+// https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 import BinaryTree.Node;
 
@@ -22,7 +24,6 @@ public class inOrderTraversal {
 
     public void inOrderRecursive(Node root) {
         // Base condition
-
         if (root == null) {
             return;
         }
@@ -59,15 +60,16 @@ public class inOrderTraversal {
         inOrderTraversal.root.left = new Node(2);
         inOrderTraversal.root.right = new Node(3);
         inOrderTraversal.root.left.left = new Node(4);
-        inOrderTraversal.root.right.left = new Node(5);
+        inOrderTraversal.root.left.right = new Node(5);
 
 
         // Recursive way
         inOrderTraversal.inOrderRecursive(inOrderTraversal.root);
 
         System.out.println();
+        System.out.println();
 
-        // Iterative Pre Order Traversal
+        // Iterative In Order Traversal
         inOrderTraversal.inOrderIterative(inOrderTraversal.root);
 
 

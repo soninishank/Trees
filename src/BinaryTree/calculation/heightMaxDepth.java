@@ -1,16 +1,17 @@
+// https://leetcode.com/problems/maximum-depth-of-binary-tree/
 package BinaryTree.calculation;
 
 import BinaryTree.Node;
 
 // Used in levelOrderTraversal
-//Height of Tree = No of edges in longest path from root to leaf node
+// Height of Tree = No of edges in longest path from root to leaf node
 // Height of tree = Height of root
 // Height = Max(LeftSubtree, RightSubtree ) + 1 ( Connecting the root node to subtree )
 // Time complexity O(n)
-//Space complexity
+// Space complexity
+// Height of Binary Tree : https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
 public class heightMaxDepth {
     Node root;
-
 
     public int heightRecursiveWay(Node root) {
         // Base case - Exit condition

@@ -1,7 +1,10 @@
+// https://leetcode.com/problems/symmetric-tree/
+// https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
 package BinaryTree.Traversals.DepthFirstTraversal.Images;
 
 import BinaryTree.Node;
 import BinaryTree.Traversals.DepthFirstTraversal.inOrderTraversal;
+
 
 // Mirror image means left become right and right become left
 // 1, 2,3,4,5,null,7 becomes 1,3,2,7,null,5,4
@@ -17,6 +20,8 @@ class MirrorImageSymmetricBinaryTree {
     Node root;
 
     // Do Post Order Traversal than do swapping
+
+    // ConvertBinaryTreeToMirror
     private void MirrorImageBinaryTrees(Node root) {
         /// Base case
         if (root == null) {
@@ -34,6 +39,11 @@ class MirrorImageSymmetricBinaryTree {
     }
 
 
+    // A tree is symmetric if the left subtree is a mirror reflection of the right subtree
+    //when are two trees a mirror reflection of each other?
+    //Two trees are a mirror reflection of each other if
+    // 1.Their two roots have the same value.
+    // 2 .The right subtree of each tree is a mirror reflection of the left subtree of the other tree.
     public boolean isSymmetric(Node root) {
         return identicalTrees(root, root);
     }

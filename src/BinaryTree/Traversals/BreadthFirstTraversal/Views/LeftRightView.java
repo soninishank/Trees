@@ -26,7 +26,8 @@ public class LeftRightView {
             int count = queue.size();
             while (count > 0) {
                 Node remove = queue.poll();
-                if (count == 1) {
+                if (count == 1)  // Only difference
+                {
                     System.out.println(remove.data);
                 }
                 if (remove.left != null) {
@@ -51,7 +52,8 @@ public class LeftRightView {
 
             while (count > 0) {
                 Node remove = queue.poll();
-                if (count == queueCount) {
+                if (count == queueCount)  // Only Difference
+                {
                     System.out.println(remove.data);
                 }
                 if (remove.left != null) {
@@ -72,10 +74,10 @@ public class LeftRightView {
 
         // Inputting Data
         leftRightView.root = new Node(1);
-        leftRightView.root.left = new Node(10);
-        leftRightView.root.right = new Node(30);
-        leftRightView.root.left.left = new Node(40);
-        leftRightView.root.right.right = new Node(50);
+        leftRightView.root.left = new Node(2);
+        leftRightView.root.right = new Node(3);
+        leftRightView.root.left.right = new Node(5);
+        leftRightView.root.right.right = new Node(4);
 
 
         // Iterative way

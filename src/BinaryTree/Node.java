@@ -6,12 +6,18 @@ package BinaryTree;
 public class Node {
     public int data;
     public Node left, right;
+    public Node next;
 
     public Node(int item) {
         left = null;
         right = null;
         this.data = item;
+        next = null;
 
+    }
+
+    public String toString() {
+        return String.valueOf(data);
     }
 
 }

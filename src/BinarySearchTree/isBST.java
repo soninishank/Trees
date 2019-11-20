@@ -12,6 +12,7 @@ import java.util.Stack;
 // root.right.data > root.val
 // root.val > root.left.data
 // https://leetcode.com/problems/validate-binary-search-tree/
+// https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
 public class isBST {
     Node root;
     Stack<Node> stack = new Stack<>();

@@ -10,7 +10,8 @@ import BinaryTree.Traversals.DepthFirstTraversal.preOrderTraversal;
 // https://www.youtube.com/watch?v=LR3K5XAWV5k
 // https://www.ideserve.co.in/learn/how-to-recover-a-binary-search-tree-if-two-nodes-are-swapped
 // https://leetcode.com/problems/recover-binary-search-tree/discuss/32535/No-Fancy-Algorithm-just-Simple-and-Powerful-In-Order-Traversal
-public class RecoverBinarySearchTree {
+public class RecoverBinarySearchTree
+{
     Node root;
 
     Node firstElement = null;

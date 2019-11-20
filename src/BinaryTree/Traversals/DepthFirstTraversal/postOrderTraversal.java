@@ -14,7 +14,7 @@ public class postOrderTraversal {
     Stack<Node> stack = new Stack<>();
 
 
-    private void postOrderRecursive(Node root) {
+    public void postOrderRecursive(Node root) {
         if (root == null) {
             return;
         }
