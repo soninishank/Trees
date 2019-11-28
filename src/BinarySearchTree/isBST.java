@@ -27,7 +27,7 @@ public class isBST {
             return true;
         }
         int data = root.data;
-        if (data <= minValue || data > maxValue) {
+        if (data < minValue || data > maxValue) {
             return false;
         }
         return isBST(root.left, minValue, root.data) && isBST(root.right, root.data, maxValue);

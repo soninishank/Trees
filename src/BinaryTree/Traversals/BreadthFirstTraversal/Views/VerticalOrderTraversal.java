@@ -1,8 +1,7 @@
 package BinaryTree.Traversals.BreadthFirstTraversal.Views;
 
 import BinaryTree.Node;
-import BinaryTree.Traversals.DepthFirstTraversal.inOrderTraversal;
-
+// https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
 import java.util.*;
 
 public class VerticalOrderTraversal {
@@ -52,6 +51,26 @@ public class VerticalOrderTraversal {
     }
 
 
+    void verticalOrderTraversalUsingRecursion(Node node, int level, TreeMap<Integer, ArrayList<Integer>> map) {
+        if (node == null) {
+            return;
+        }
+        if (map.containsKey(level)) {
+            ArrayList<Integer> list = map.get(level);
+            list.add(node.data);
+            map.put(level, list);
+        } else {
+            ArrayList<Integer> list = new ArrayList<>();
+            list.add(node.data);
+            map.put(level, list);
+        }
+
+        verticalOrderTraversalUsingRecursion(node.left, level - 1, map);
+        verticalOrderTraversalUsingRecursion(node.right, level + 1, map);
+
+    }
+
+
     public static void main(String[] args) {
         VerticalOrderTraversal verticalOrderTraversal = new VerticalOrderTraversal();
         // Inputting Data
@@ -68,5 +87,22 @@ public class VerticalOrderTraversal {
         // Iterative way
         System.out.println("Vertical view of a Binary Tree is :");
         verticalOrderTraversal.verticalOrder(root);
+
+
+        // Recursive way
+        System.out.println("Vertical view of a Binary Tree is :");
+        TreeMap<Integer, ArrayList<Integer>> treeMap = new TreeMap<>();
+        int level = 0;
+        verticalOrderTraversal.verticalOrderTraversalUsingRecursion(root, 0, treeMap);
+        verticalOrderTraversal.print(treeMap);
+
+
+    }
+
+    public void print(TreeMap<Integer, ArrayList<Integer>> map) {
+        Set<Integer> set = map.keySet();
+        for (int key : set) {
+            System.out.println(map.get(key));
+        }
     }
 }

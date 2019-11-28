@@ -88,10 +88,11 @@ public class ZigZagLevelOrderTraversal {
 
         // Inputting Data
         ZigZagLevelOrderTraversal.root = new BinaryTree.Node(1);
-        ZigZagLevelOrderTraversal.root.left = new BinaryTree.Node(10);
-        ZigZagLevelOrderTraversal.root.right = new BinaryTree.Node(20);
-        ZigZagLevelOrderTraversal.root.left.left = new BinaryTree.Node(30);
-        ZigZagLevelOrderTraversal.root.left.right = new BinaryTree.Node(40);
+        ZigZagLevelOrderTraversal.root.left = new BinaryTree.Node(2);
+        ZigZagLevelOrderTraversal.root.right = new BinaryTree.Node(3);
+        ZigZagLevelOrderTraversal.root.left.left = new BinaryTree.Node(7);
+        ZigZagLevelOrderTraversal.root.left.right = new BinaryTree.Node(6);
+
         ZigZagLevelOrderTraversal.root.left.right.left = new BinaryTree.Node(70);
         ZigZagLevelOrderTraversal.root.right.left = new BinaryTree.Node(50);
         ZigZagLevelOrderTraversal.root.right.left.left = new BinaryTree.Node(60);

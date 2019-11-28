@@ -26,6 +26,7 @@ public class BottomViewOfBinaryTree {
         }
 
     }
+    // The only difference is here we are directly adding in map instead of checking so that it can override values at different levels -2 , -1 , 0 , +1 , +2
 
     private void bottomTree(Node root) {
         if (root == null) {

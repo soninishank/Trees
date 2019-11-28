@@ -22,7 +22,7 @@ public class inOrderTraversal {
     Stack<Node> stack = new Stack<>(); // Used for inOrderTraversal in Iterative way
 
 
-    public void inOrderRecursive(Node root) {
+    public static void inOrderRecursive(Node root) {
         // Base condition
         if (root == null) {
             return;

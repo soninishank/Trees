@@ -1,8 +1,11 @@
 package BinaryTree.Traversals.BreadthFirstTraversal.Views;
 
+// https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+// We need only these levels values -2 -1 0 1 2 -> depending on tree size
+
+
 import BinaryTree.Node;
 
-import javax.jws.Oneway;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
@@ -37,13 +40,14 @@ public class TopViewOfBinaryTree {
                 queue.add(new Obj(current.node.left, current.level - 1));
             if (current.node.right != null)
                 queue.add(new Obj(current.node.right, current.level + 1));
-            Set<Integer> set = treeMap.keySet();
+           /* Set<Integer> set = treeMap.keySet();
             for (int i : set) {
                 System.out.print("Level is " + i + " + " + treeMap.get(i).data + "   ");
             }
-            System.out.println();
+            System.out.println();*/
         }
-
+        System.out.println(treeMap);
+        System.out.println();
         Set<Integer> set = treeMap.keySet();
         for (int num : set) {
             System.out.print(treeMap.get(num).data + " ");
@@ -54,15 +58,15 @@ public class TopViewOfBinaryTree {
     public static void main(String[] args) {
         TopViewOfBinaryTree topViewOfBinaryTree = new TopViewOfBinaryTree();
         // Inputting Data
-        Node root = new Node(20);
-        root.left = new Node(8);
-        root.right = new Node(22);
-        root.left.left = new Node(5);
-        root.left.right = new Node(3);
-        root.right.left = new Node(4);
-        root.right.right = new Node(25);
-        root.left.right.left = new Node(10);
-        root.left.right.right = new Node(14);
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+        root.left.left = new Node(4);
+        root.left.right = new Node(5);
+
+        root.right.left = new Node(6);
+        root.right.right = new Node(7);
+
 
         // Iterative way
         System.out.println("Bottom view of a Binary Tree is :");
@@ -71,3 +75,5 @@ public class TopViewOfBinaryTree {
 
 
 }
+// Different levels
+// -2  -1  0  +1 +2
