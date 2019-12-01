@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35795e2b-7e0c-4aa5-a117-3e9769411517" name="Default Changelist" comment="Some more code">
-      <change afterPath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/KthSmallestLargestElementInBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/PrintLeafNodes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/SubtreeOfAnotherTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Tree/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Tree/TreeDepth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/Easy/insertionInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/Easy/searchInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/Hard/BinaryTreeToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/KthSmallestLargestElementInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/SubtreeOfAnotherTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HardProblems/MaximumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HardProblems/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/Hard/RecoverBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/Hard/RecoverBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/KthSmallestElementInBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/isBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinarySearchTree/isBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/BottomViewOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/BottomViewOfBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree$Obj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree$Obj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal$Obj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal$Obj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/ZigZagLevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/BreadthFirstTraversal/ZigZagLevelOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/CreationOfTree/BinaryTreeFromInorderPostorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/CreationOfTree/BinaryTreeFromInorderPostorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/CreationOfTree/BinaryTreeFromInorderPreorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/CreationOfTree/BinaryTreeFromInorderPreorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageSymmetricBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/Images/MirrorImageSymmetricBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/HardProblems/FlatteningBinaryTreeToLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/HardProblems/FlatteningBinaryTreeToLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/Hard/RecoverBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/Hard/RecoverBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/KthSmallestElementInBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/isBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PrintLeafNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PrintLeafNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/BottomViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/BottomViewOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/LeftRightView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/TopViewOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/Views/VerticalOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/ZigZagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/BreadthFirstTraversal/ZigZagLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/Images/IdenticalTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Traversals/DepthFirstTraversal/inOrderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
